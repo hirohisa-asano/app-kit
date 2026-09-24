@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# asc-drive が作る Chrome プロファイル（ログイン済みセッションが入る）
+profile/
+*.png
+
+# 秘密
+.env
+.env.*
+.secrets/
+*.p8
+*.p12
+*.pem
